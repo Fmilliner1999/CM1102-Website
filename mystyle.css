@@ -1,0 +1,35 @@
+body {
+    background-color: lightblue;
+}
+h1 {
+	font-family: "Verdana",  sans-serif;
+    color: navy;
+    margin-left: 20px;
+}
+.navbar_ul {
+	font-family: "Verdana",  sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar_li {
+    float: left;
+}
+
+.navbar_li a {
+	font-family: "Verdana",  sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar_li a:hover {
+    background-color: #111;
+} white;
+}
