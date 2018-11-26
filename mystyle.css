@@ -67,9 +67,34 @@ h1 {
     display:table; 
     margin:0 auto;
     color: white;
-
 }
 
+#tech_table {
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tech_table td, #tech_table th{
+    border: 2px solid #ced5e0;
+    padding: 10px;
+}
+
+#tech_table tr:hover {
+    background-color: #ced5e0;
+}
+
+#customers tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#tech_table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #6e9dea;
+    color: white;
+}
 img {
     size: 50%;
 }
